@@ -18,6 +18,7 @@
 #include <DRS.h>
 #include <DRSConfigManager.h>
 #include <DRSDataManager.h>
+#include <stdUSB.h>
 
 /**
 * \class DataModel
@@ -51,6 +52,7 @@ class DataModel
 
         DRSDataManager DRSData;
         DRSConfigManager DRSConfig;
+        stdUSB* USB;
 
     private:
         //std::map<std::string,TTree*> m_trees; 
