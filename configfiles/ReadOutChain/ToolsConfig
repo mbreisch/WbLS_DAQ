@@ -1,0 +1,6 @@
+Receive Receive configfiles/ReadOutChain/BoardsConfig
+SetupDRS SetupDRS configfiles/ReadOutChain/BoardsConfig
+ReadData ReadData configfiles/ReadOutChain/BoardsConfig
+Stream Stream configfiles/ReadOutChain/BoardsConfig
+
+

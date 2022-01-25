@@ -1,0 +1,9 @@
+#Overall config file
+
+# To change for ZMQ comms
+IP 127.0.0.1
+# Do not change!
+IP_BIND 0.0.0.0
+Port 8888
+Port_BIND 6666
+
