@@ -11,8 +11,8 @@ using namespace std;
 
 stdUSB::stdUSB() {
     stdHandle = INVALID_HANDLE_VALUE; 
-    USBFX2_VENDOR_ID = 0x6672;
-    USBFX2_PRODUCT_ID = 0x2920;
+    USBFX2_VENDOR_ID = 0x04b4;
+    USBFX2_PRODUCT_ID = 0x1175;
     bool retval;
     retval = createHandles();
     if(!retval)
