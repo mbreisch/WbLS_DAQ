@@ -105,9 +105,10 @@ then
     
     cd zeromq-4.0.7
     
-    ./configure --prefix=`pwd`
+    ./autogen.sh
+    ./configure --prefix=`pwd` --enable-debug
     make -j8
-    make install
+    sudo make install
     
     export LD_LIBRARY_PATH=`pwd`/lib:$LD_LIBRARY_PATH
     
@@ -157,8 +158,6 @@ cd ../
 
 if [ $final -eq 1 ]
 then
-    
-    tar zxvf doc.tar.xz
     
     echo "current directory"
     echo `pwd`
